@@ -1,0 +1,42 @@
+.panel {
+    border: 1px solid #FFAFCC;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.panel-item {
+    border-bottom: 1px solid #FFAFCC;
+}
+
+.panel-title {
+    background-color: #d7f0fe;
+    color: #333;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #FFAFCC;
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotated {
+    transform: rotate(180deg);
+}
+
+.panel-content {
+    padding: 15px;
+    background-color: #FFC8DD;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
